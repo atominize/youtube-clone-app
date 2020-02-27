@@ -1,8 +1,5 @@
 import axios from 'axios';
 
 export default axios.create({
-    baseURL: '',
-    params: {
-
-    }
+    baseURL: 'https://www.googleapis.com/youtube/v3',
 });
